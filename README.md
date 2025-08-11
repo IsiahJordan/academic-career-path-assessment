@@ -45,7 +45,7 @@ inspiring highschool students assisting on their decision for their future caree
 | --------------------------- | ------------------------------ | ------------------------------------------------ |
 | Isiah Jordan Dimaunahan     | Full Stack Developer           | (https://github.com/IsiahJordan)                 |
 | Jeremy Lemoncito            | Full Stack Developer           | (https://github.com/lemoncitoJeremy)             |
-| Ormin Cariaso               | Documentation & Database Admin |                                                  |
+| Ormin Cariaso               | Documentation & Database Admin | (https://github.com/ocariaso)                    |
 | Welson Lausa                | UI\UX Designer                 |                                                  |
 
 ---
