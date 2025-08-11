@@ -15,8 +15,8 @@ function ListGroup({items , heading, onSelectItem}:Props) {
 
   return (
     <div className="container">
-      <h1> {heading} </h1>
-      <p> Which city are you from?</p>
+      <h3 className="mb-5"> {heading} </h3>
+      
       {items.length === 0 && <p>No Item Found!</p>}
       <ul className="list-group">
 

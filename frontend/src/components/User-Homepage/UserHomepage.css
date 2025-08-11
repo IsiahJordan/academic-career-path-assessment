@@ -1,0 +1,91 @@
+
+
+.navbar{
+    background-color: #107F86;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.first-content{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.first-left-content{
+    background-color: white;
+    text-align: center;
+    margin-top:2%;
+    margin-left: 3%;
+    
+    
+}
+.first-right-content{
+    text-align: right;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 1%;
+    padding-top:5%;
+    margin-top:2%;
+    margin-right: 1%;
+}
+.homepageButton{
+    margin-top: 5%;
+}
+
+.second-content{
+    background-color: #107F86;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding-top:3%;
+    padding-bottom: 2%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+.second-left-content{
+    margin-left: 5%;
+    margin-right: 1%;
+}
+.second-right-content{
+    margin-left:5%;
+}
+
+.third-content{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-left:10%;
+    margin-right:10%;
+    padding-bottom:5%;
+}
+.step-1{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 1%;
+     
+}
+.card{
+    padding-bottom: 30%;
+    box-shadow: 1px 1px 5px;  
+}
+
+.step-2{
+    margin-top: 5%;
+    margin-right: 1%;
+}
+.step-3{
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.footer-container{
+    background-color: black;
+    padding-bottom: 10%;
+}
+

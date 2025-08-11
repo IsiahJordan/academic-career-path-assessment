@@ -1,0 +1,36 @@
+.assessments-container{
+    padding-bottom: 10%;
+    background-color: whitesmoke;
+}
+
+.assessments{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 6px;
+    background-color:rgba(214, 213, 213, 0.271);
+    box-shadow: 1px 2px 20px ;
+    outline: 10%;
+}
+.assessment-heading{
+    color:azure;
+    background-color: #107F86;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.assessment-body{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10%;
+    padding-left: 10px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+}

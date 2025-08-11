@@ -1,0 +1,50 @@
+#admin-popup{
+  position: fixed;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F1FEFF;  
+}
+
+#user-message{
+  margin-bottom: 40px;  
+}
+
+#msg-subject{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+#admin-popup textarea {
+  margin-top: 40px;
+  width: 450px;
+}
+
+
+#admin-popup button:hover {
+  background-color: rgba(16, 127, 134, 0.6);
+}
+
+#admin-popup button {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  margin-top: 4px;
+  font-size: 15px;
+  border: none;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+  background-color: rgba(16, 127, 134, 0.7);
+
+  height: 30px;
+  width: 100%;
+}

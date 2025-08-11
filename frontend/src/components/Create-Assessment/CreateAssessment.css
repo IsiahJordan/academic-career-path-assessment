@@ -1,0 +1,44 @@
+.CreateAssessment-form-layout{
+    background-color:rgba(214, 213, 213, 0.271);
+    box-shadow: 1px 2px 20px ;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+.CreateAssessment-SubmitButton{
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.Cont1{
+    display: flex;
+}
+.Cont2{
+    display: flex;
+}
+.Correct{
+    width: 50%;
+}
+.Incorrect1{
+    margin-left: 3%;
+    width: 50%;
+}
+.Incorrect2{
+   
+    width: 50%;
+}
+.Incorrect3{
+    margin-left: 3%;
+    width: 50%;
+}
+
+.myQuestions{
+    margin-top: 3%;
+}

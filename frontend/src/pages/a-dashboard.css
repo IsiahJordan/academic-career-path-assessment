@@ -1,0 +1,62 @@
+#dashboard{
+  margin: 40px 170px;
+  min-height: 760px;
+  
+}
+
+#dashboard-title{
+  background-color: rgba(16, 126, 134, 0.338);
+  min-height: 120px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 30px 60px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#dashboard-article{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  color: black;
+  
+}
+
+#dashboard-stats{
+  flex: 1;
+  background-color: rgba(16, 127, 134, 0.12);
+  min-height: 740px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px ;
+  padding-left: 1%;
+}
+
+#dashboard-user{
+  flex: 1;
+  background-color: #F0F0F0;
+  margin-left: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px ;
+  padding-left: 1%; 
+}
+
+#dashboard-title-content{
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+#dashboard-user li{
+  margin-left: 60px;
+  background-color:  rgba(16, 127, 134, 0.7);
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+
+#dashboard-graph{
+  min-height: 450px;
+  margin-top: 100px;
+}
+

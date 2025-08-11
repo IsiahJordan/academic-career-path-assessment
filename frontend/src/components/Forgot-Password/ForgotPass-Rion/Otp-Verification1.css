@@ -1,0 +1,33 @@
+.Otp-auth-form-container1{
+    margin-top: 10%;
+    margin-right: 35%;
+    margin-left:35%;
+    padding-top: 3%;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 5%;
+    background-color: white;
+    outline: auto;
+
+}
+
+.Otp-message-container1{
+    display:flex;
+    justify-content: center;
+    padding-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.otp-form-actions{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.input-code{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}

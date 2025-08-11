@@ -1,0 +1,92 @@
+#report-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-left: 3%;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.equal-size-div {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 340px;
+  margin-right: 3%;
+  border-radius: 15px;
+  
+  background-color: #F0F0F0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.bottom-row {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 100px 60px;
+}
+
+.large-div {
+  flex: 2;
+  border: 1px solid #ccc;
+  height: 650px;
+  padding: 10px;
+  margin-right: 3%;
+  border-radius: 15px;
+ 
+  background-color: #F0F0F0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.small-div {
+  flex: 0.93;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 650px;
+ 
+  border-radius: 15px;
+ 
+  background-color: #F0F0F0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.content{
+  display: flex;
+  height: 100%;
+  font-size: 25px;
+  text-align: left;
+  font-weight: normal;
+  margin-top: 3%;
+}
+
+.content-chart
+{
+  flex: 1;
+  height: 70%;
+}
+
+.content ul{
+  padding-left: 100px;
+}
+
+.content div {
+  font-size: 40px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.report-title {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.reports-container{
+
+ 
+}

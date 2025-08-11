@@ -1,23 +1,80 @@
 import "./UserLogin.css";
-import { useState } from "react";
+import {useState } from "react";
+import { Link, useNavigate } from "react-router-dom"
+import LoginValidation from "./LoginValidation";
 import axios from "axios";
+import { useUser } from '../User-Context/UserContext';
+
 
 const UserLogin = () => {
-  //get data
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const { updateUser } = useUser();
 
-  const handleSubmit = (event: any) => {
+  const [values, setValues]= useState({
+   
+    email: '',
+    password: ''
+  })
+  const navigate = useNavigate();
+  const [errors, setErrors]= useState<{[key: string]: string}>({})
+
+  const handleInput =(event:any)=> {
+    setValues(prev => ({...prev,[event.target.name]:[event.target.value]}))
+  }
+  const handleSubmit = (event:any) => {
     event.preventDefault();
-    axios
-      .post("http://localhost:8081/admin", { email, password })
-      .then((res) => console.log(res))
+    const validationErrors = LoginValidation(values)
+    setErrors(validationErrors);
+
+    if (validationErrors.email === "" && validationErrors.password === ""
+    ) {
+      axios
+      .post("http://localhost:8081/login", values)
+      .then((res) => {
+          if (res.data.status === "success") {
+              
+              
+              const myUserData = res.data.data[0];
+
+              const userID = myUserData.userID;
+              const firstname = myUserData.firstname;
+              const lastname = myUserData.lastname;
+              const gender = myUserData.gender;
+              const city = myUserData.city;
+              const email = myUserData.email;
+              const role = myUserData.role;
+              const status = myUserData.status;
+
+              alert("Login success ! Welcome " + firstname +' '+lastname);
+               
+             
+              
+              const payload ={
+                userID : userID,
+                firstname : firstname,
+                lastname : lastname,
+                gender : gender,
+                city : city,  
+                email: email,
+                role : role,
+                status : status
+              }
+              console.log(payload);
+              updateUser(payload);
+              navigate('/home');
+
+          } else {
+              alert("Wrong email or password");
+          }
+      })
       .catch((err) => console.log(err));
+    }
   };
 
   return (
+    <div>
+      <body>
     <div className="login-container">
-      <div className="heading">
+      <div className="login-heading">
         <h1>Login</h1>
       </div>
       <div className="form-layout">
@@ -27,31 +84,33 @@ const UserLogin = () => {
             <input
               type="text"
               className="form-control"
-              id="name"
-              onChange={(e) => setEmail(e.target.value)}
-            />
+              name='email'
+              onChange={handleInput}/>
+              {errors.email && <span className="text-danger">{errors.email}</span>}
           </div>
           <div className="mb-3">
             <label className="form-label">Password</label>
             <input
-              type="text"
+              type="password"
               className="form-control"
-              id="displayname"
-              onChange={(e) => setPassword(e.target.value)}
-            />
+              name='password'
+              onChange={handleInput}/>
+              {errors.password && <span className="text-danger">{errors.password}</span>}
           </div>
           <div className="ForgotPass">
-            <a href="">Forgot Password</a>
+            <Link to="/forgot">Forgot Password</Link>
           </div>
           <div className="LoginButton">
-            <button className="btn btn-primary">Log In</button>
+            <button type="submit" className="btn btn-primary">Log In</button>
           </div>
           <div className="SignUp">
             <p>Don't have an account? </p>
-            <a href="">create one</a>
+            <Link to="/signup" >create one</Link>
           </div>
         </form>
       </div>
+    </div>
+    </body>
     </div>
   );
 };

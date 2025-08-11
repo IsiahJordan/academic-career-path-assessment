@@ -1,0 +1,77 @@
+
+#article {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0px;
+}
+
+#article h1{
+  margin: 20px 40px;
+  font-size: 38px;
+}
+
+#admin-box {
+  padding: 20px 30px;
+  margin: 30px 40px;
+  background-color: #107F86;
+  border-radius: 20px;
+  min-height: 800px;
+}
+
+#admin-box input{
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #F4F4F4;
+  width: 30%;
+}
+
+#admin-box select{
+  color: white;
+  padding: 10px 15px;
+  margin-right: 40px;
+  margin-left: 70px;
+  margin-top: 4px;
+  font-size: 15px;
+  border: none;
+  height: 50px;
+  width: 140px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+  background-color: rgba(16, 127, 134, 0.6);
+ 
+}
+
+#admin-box table{
+  margin-top: 20px;
+  background-color: #FFF;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  padding: 0px;
+  border-spacing: 0px;
+}
+
+#admin-box th{
+  padding: 10px;
+}
+
+#admin-box tr:nth-child(even){
+  background-color: #EDECEC;
+}
+
+#admin-box tr:hover {
+  background-color: #ddd;
+}
+
+#admin-box td{
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+#admin-box button{
+  border: None;
+  font-weight: bold; 
+}

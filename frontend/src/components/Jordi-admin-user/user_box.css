@@ -1,0 +1,58 @@
+.message-box {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 40px;
+  border: 1px solid rgba(16, 127, 134, 0.12); 
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(16, 127, 134, 0.12);
+}
+
+.message-box input, textarea {
+  width: 93%;
+  padding: 12px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(16, 127, 134, 0.45);
+  border-radius: 40px;
+  background-color: rgba(16, 127, 134, 0.45);
+  resize: none;
+}
+
+.message-box input {
+  width: 40%;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.message-box textarea {
+  height: 400px;
+  padding: 20px 20px;
+}
+
+.message-box input::placeholder {
+  font-weight: 1000;
+  color: black;
+}
+
+.message-box button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 40px;
+  margin-top: 4px;
+  font-size: 15px;
+  border: none;
+  height: 50px;
+  width: 140px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+  background-color: rgba(16, 127, 134, 0.7);
+}
+
+.message-box button:hover {
+  background-color: rgba(16, 127, 134, 0.6);
+}
