@@ -31,8 +31,11 @@ inspiring highschool students assisting on their decision for their future caree
 
 ## 📸 Screenshot
 
-*(Replace with an actual screenshot when live)*
-![Project Screenshot](./screenshot.png)
+*Live Presentation of ACPA as part of the Software Engineering Requirements*
+![Project Screenshot](./presentation.png)
+![Project Screenshot](./presentation02.png)
+![Project Screenshot](./presentation03.png)
+![Project Screenshot](./presentation04.png)
 
 ---
 
