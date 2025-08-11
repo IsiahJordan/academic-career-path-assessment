@@ -41,12 +41,12 @@ inspiring highschool students assisting on their decision for their future caree
 
 ## 👥 Contributors
 
-| Name                        | Role                 | GitHub Profile                                   |
-| --------------------------- | -------------------- | ------------------------------------------------ |
-| Isiah Jordan Dimaunahan     | Full Stack Developer | (https://github.com/IsiahJordan)                 |
-| Jeremy Lemoncito            | Full Stack Developer | (https://github.com/lemoncitoJeremy)             |
-| Ormin Cariaso
-| Welson Lausa
+| Name                        | Role                           | GitHub Profile                                   |
+| --------------------------- | ------------------------------ | ------------------------------------------------ |
+| Isiah Jordan Dimaunahan     | Full Stack Developer           | (https://github.com/IsiahJordan)                 |
+| Jeremy Lemoncito            | Full Stack Developer           | (https://github.com/lemoncitoJeremy)             |
+| Ormin Cariaso               | Documentation & Database Admin |                                                  |
+| Welson Lausa                | UI\UX Designer                 |                                                  |
 
 ---
 
@@ -54,6 +54,3 @@ inspiring highschool students assisting on their decision for their future caree
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
----
-
-Do you want me to make the **Tech Stack section with icons** so it looks more polished when you present it live? That would make it stand out visually.
