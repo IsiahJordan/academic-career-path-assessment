@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Share Tech";
+}
+
+/* Pages Styles */
+#hero-section {
+  display: flex;
+  background: var(--bg);
+  padding: 0.1rem 10rem;
+  height: 50vh;
+}
+
+#hero-title {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+#hero-image {
+  flex: 1;
+}
+
+#hero-header {
+  color: var(--text);
+  font-size: 2rem;
+  width: 60%;
+}
+
+#hero-text {
+  color: #ffffff;
+  font-size: 1.3rem;
+  width: 65%;
+}
+
+#sign-content {
+  display: flex;
+  height: 100%;
+}
+
+#sign-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#sign-image {
+  flex: 2;
+  background: var(--bg);
+}
+
+#parent{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+#test-page {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  height: fit-content;
+  padding: 1rem;
+}
+
+#test-page > div {
+  flex: 1;
+  line-height: 1;
+}
+
+#test-title {
+  padding-left: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+}
+
+#test-bar {
+  width: 90%;
+}
+
+#performance-page {
+  background: var(--bg);
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 1rem;
+}
+
+#chart {
+  flex: 2;
+}
+
+#bar-chart {
+  margin-bottom: 0.5rem;
+}
+
+#scatter-chart {
+}
+
+#hist-chart {
+  flex: 2;
+}
+
+#suggest-chart {
+  background: #ffffff;
+  flex: 1;
+}
+
+#side {
+  flex: 1;
+}
+
+#bottom-chart {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}

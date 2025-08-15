@@ -1,0 +1,79 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1rem;
+}
+
+.header {
+  font-size: 48px; 
+  text-align: center;
+  line-height: 0.8;
+}
+
+.textbox {
+  border-top: 2px solid #aaaaaa;
+  border-left: 2px solid #555555;
+  border-right: 2px solid #aaaaaa;
+  border-bottom: 2px solid #555555;
+  border-radius: 20px;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.button {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 1em 1em;
+  width: 60%;
+  font-weight: 1000;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: var(--secondary);
+}
+
+.google {
+  color: #fff;
+  flex: 1;
+  background: var(--secondary);
+  border: none;
+  border-radius: 20px;
+  padding: 1em 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+
+.text {
+  border: none;
+  font-size: 18px;
+}
+
+.text:focus {
+  outline: none;
+}
+
+.footer {
+  display: flex;
+  gap: 1rem;
+  padding-top: 1em;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.subheader {
+  font-size: 14px;  
+}
